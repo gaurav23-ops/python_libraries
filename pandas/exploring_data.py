@@ -16,3 +16,5 @@ data.loc [(data["Marks"]>85,"grade")]="A+"
 print(data)
 
 
+data = pd.read_excel("C:/Users/User/Fullpython/python_libraries/pandas/Expense.xlsx")
+print(data)
